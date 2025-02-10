@@ -1,0 +1,37 @@
+/* ----- GLOBAL STYLES ----- */
+* {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* ----- HEADER ----- */
+/* header overall */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* the logotype */
+#logo {
+  font-size: 2rem;
+}
+
+/* the whole navigation menu list */
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  justify-content: center;
+  gap: 3rem;
+}
+
+/* the individual menu items */
+li {
+  margin-left: 0rem;
+}
+
+/* the links inside the navigation menu */
+a {
+  color: rgb(210, 199, 255);
+}
