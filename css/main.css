@@ -3,6 +3,12 @@ main {
   text-align: center;
 }
 
+#welcome-header {
+  font-family: "Vina Sans", serif;
+  font-weight: 350;
+  font-size: 5rem;
+}
+
 /* ----- PRODUCTS ----- */
 
 /* ----- PERSONA ----- */
