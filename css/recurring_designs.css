@@ -63,14 +63,25 @@ a {
 }
 
 /* ----- FOOTER ----- */
+footer {
+  background-color: rgb(0, 0, 0);
+  padding-left: 40px;
+}
+
+/* removing the white background from the elements*/
+footer * {
+  background-color: transparent;
+}
 
 /* the logotype */
 #logotype_footer {
   display: flex;
+  justify-content: center;
 }
 
-#logo {
-  width: 20%;
+#logo_footer {
+  width: 30%;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 /* follow us */
@@ -78,6 +89,16 @@ a {
   font-family: "Vina Sans", serif;
   font-weight: 400;
   font-style: normal;
+  color: rgb(255, 255, 255);
+}
+
+/* footer text */
+footer p {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Adjust weight as needed */
+  font-style: normal;
+  color: rgb(255, 255, 255);
 }
 
 /* all the social items container */
@@ -98,4 +119,8 @@ a {
 .social_icon {
   width: 30px;
   height: 30px;
+}
+
+.footer_copyright {
+  padding-bottom: 20px;
 }
