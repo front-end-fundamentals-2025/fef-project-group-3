@@ -4,7 +4,7 @@
   color: rgb(0, 0, 0);
 }
 
-/* ---- FONTS INFO ---- */
+/* ----- FONTS INFO ----- */
 
 /* VINA SANS
  font-family: "Vina Sans", serif;
@@ -22,7 +22,6 @@ font-family: "Newsreader", serif;
 /* ----- HEADER ----- */
 
 /* the logotype */
-
 #logotype {
   display: flex;
   flex-direction: row;
@@ -51,4 +50,52 @@ li {
 /* the links inside the navigation menu */
 a {
   color: rgb(210, 199, 255);
+}
+
+/* cart icon */
+#cart_icon {
+  width: 30px;
+}
+
+#cart_link {
+  display: flex;
+  align-items: center;
+}
+
+/* ----- FOOTER ----- */
+
+/* the logotype */
+#logotype_footer {
+  display: flex;
+}
+
+#logo {
+  width: 20%;
+}
+
+/* follow us */
+.follow_us {
+  font-family: "Vina Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* all the social items container */
+.footer_socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* row of social icon and its matching text */
+.social_item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* social icon image */
+.social_icon {
+  width: 30px;
+  height: 30px;
 }
