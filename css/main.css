@@ -1,3 +1,5 @@
+/* ---- FOR ENTIRE PAGE ---- */
+
 /* ----- MAIN ----- */
 main {
   text-align: center;
@@ -10,6 +12,144 @@ main {
 }
 
 /* ----- PRODUCTS ----- */
+#products-header {
+  font-family: "Vina Sans", serif;
+  font-weight: 350;
+  font-size: 5rem;
+}
+
+#filter {
+  /* button specifics*/
+  width: 200px;
+  height: 70px;
+  /* button looks*/
+  border-radius: 20px;
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Common for all products START*/
+
+.product-img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.product-caption-heading {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 2rem;
+  background: none;
+}
+
+.product-caption-price {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  background: none;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  justify-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* Common for all products END*/
+
+/* Individual for each product START*/
+
+.product-1 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-2 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-3 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-4 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-5 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-6 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-7 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-8 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-9 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+.product-10 {
+  margin-top: 10%;
+  width: 95%;
+  height: 500px;
+  background-color: rgb(229, 216, 216);
+  border-radius: 10%;
+}
+
+/* Individual for each product END*/
+
+/* ---- PRODUCT 1 ---- */
 
 /* ----- PERSONA ----- */
 
