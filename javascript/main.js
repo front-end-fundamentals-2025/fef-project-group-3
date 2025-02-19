@@ -1,7 +1,4 @@
-const nextButton = document.querySelector("next-img");
-const productImg = document.getElementById("next-img");
-
-// nextButton.addEventListener("click", function(event) {
-//     productImg.innerHTML =
-
-// })
+const nextButtonElement = document.getElementsByClassName("next-img");
+const imagesSlidesElement = document.getElementsByClassName(
+  "product1-img-container"
+);
