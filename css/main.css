@@ -1,4 +1,10 @@
-/* ---- FOR ENTIRE PAGE ---- */
+/* ---- FOR ENTIRE WEBSITE ---- */
+/* header for all pages */
+#pages-header {
+  font-family: "Vina Sans", serif;
+  font-weight: 350;
+  font-size: 5rem;
+}
 
 /* ----- MAIN ----- */
 main {
@@ -12,12 +18,6 @@ main {
 }
 
 /* ----- PRODUCTS ----- */
-#products-header {
-  font-family: "Vina Sans", serif;
-  font-weight: 350;
-  font-size: 5rem;
-}
-
 #filter {
   /* button specifics*/
   width: 200px;
@@ -35,7 +35,6 @@ main {
 }
 
 /* Common for all products START*/
-
 .product-img {
   width: 100%;
   border-radius: 10%;
@@ -62,11 +61,9 @@ main {
   margin-left: 2%;
   margin-right: 2%;
 }
-
 /* Common for all products END*/
 
-/* Individual for each product START*/
-
+/* Individual for each product START */
 .product-1 {
   margin-top: 10%;
   width: 95%;
@@ -146,11 +143,9 @@ main {
   background-color: rgb(229, 216, 216);
   border-radius: 10%;
 }
-
 /* Individual for each product END*/
 
 /* ---- PRODUCT 1 ---- */
-
 .product-1-page-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -160,15 +155,14 @@ main {
   margin-right: 2%;
 }
 
-/**Start help w3schools on gallery effect link: https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
-
+/**Start help w3schools on gallery effect link:
+https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
 .product1-img-container {
   display: flex;
   flex-direction: row;
   overflow: auto;
   width: 90%;
 }
-
 /* End help w3 schools*/
 
 .product-title {
@@ -193,15 +187,29 @@ main {
 }
 
 .product-contents {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   border: none;
 }
 
 .product-specifications {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   border: none;
 }
 
 .product-reviews {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   border: none;
+}
+
+.add-to-cart {
+  width: 40%;
+  margin-top: 40px;
 }
 
 /* ----- PERSONA ----- */
@@ -211,3 +219,10 @@ main {
 /* ----- ABOUT ----- */
 
 /* ----- CART ----- */
+
+#continue-shopping-button {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color:black;
+}
