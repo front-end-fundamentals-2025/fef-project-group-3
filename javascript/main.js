@@ -6,14 +6,17 @@
 /*Specifications buttons - Start*/
 
 const contentsButton = document.querySelector("product-contents");
+const contentsDropDown = document.getElementsByClassName(
+  "dropdown-product-contents"
+);
 // const specificationsButton = document.getElementsByClassName(
 //   "product-specifications"
 // );
 // const reviewsButton = document.getElementsByClassName("product-reviews");
-const contentsInfo = document.getElementsByClassName("product-contents-info");
 
 contentsButton.addEventListener("click", function (event) {
-  contentsInfo.innerText = "";
+  contentsDropDown.innerText =
+    "repudiandae officia quod voluptas? Voluptatibus quasi repudiandae eligendi pariatur voluptatem, solut cupiditate nam molestias quod ducimus eum consequatur. Eos ration mollitia consequuntur doloremque a sit! Aspernatur repellendus reru corporis ut consequuntur numquam voluptas laborum! Consequuntur voluptas cum suscipit eligendi deserunt corrup";
 });
 
 /*Specifications buttons - End*/
