@@ -17,6 +17,43 @@ main {
   font-size: 5rem;
 }
 
+#welcome-slogan {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.homepage-image {
+  width: 20%;
+  margin: 0.5%;
+}
+.homepage-images {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  animation-name: gallery;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes gallery {
+  10% {
+    translate: 0px;
+  }
+
+  100% {
+    translate: -290px;
+  }
+}
+
+.homepage-links-contianer {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  justify-content: center;
+}
+
+.homepage-links-images {
+  margin-top: 10%;
+  width: 45%;
+}
 /* ----- PRODUCTS ----- */
 #filter {
   /* button specifics*/
@@ -157,12 +194,22 @@ main {
 
 /**Start help w3schools on gallery effect link:
 https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
-.product1-img-container {
+.product-img-container {
   display: flex;
   flex-direction: row;
   overflow: auto;
   width: 90%;
 }
+
+.product-images {
+  display: block;
+  /* background-image: url(../images/mockup-product1.png); */
+  background-color: brown;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
 /* End help w3 schools*/
 
 .product-title {
@@ -179,6 +226,11 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
   margin-top: 2%;
 }
 
+.product-description {
+  width: 80%;
+  align-self: center;
+}
+
 /*Specifications buttons*/
 .buttons {
   display: flex;
@@ -188,22 +240,22 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
 
 /* Start Help taken/dropdown funciton learned from w3shools https://www.w3schools.com/css/css_dropdowns.asp*/
 .product-contents {
-  position: relative;
   font-family: "Vina Sans", serif;
   font-weight: 300;
   font-size: 1.5rem;
-  /* border: none; */
+  border: none;
   align-self: flex-start;
 }
 
 .dropdown-product-contents {
-  position: absolute;
+  display: none;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* .product-contents:click .dropdown-product-contents {
+.dropdown-product-contents-show {
   display: block;
-} */
+  text-align: start;
+}
 
 .product-specifications {
   font-family: "Vina Sans", serif;
@@ -213,12 +265,32 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
   align-self: flex-start;
 }
 
+.dropdown-product-specifications {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-product-specifications-show {
+  display: block;
+  text-align: start;
+}
+
 .product-reviews {
   font-family: "Vina Sans", serif;
   font-weight: 300;
   font-size: 1.5rem;
   border: none;
   align-self: flex-start;
+}
+
+.dropdown-product-reviews {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-product-reviews-show {
+  display: block;
+  text-align: start;
 }
 
 .add-to-cart {
@@ -243,10 +315,10 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
   grid-template-rows: 70px 1fr 70px;
 }
 
-/*.showCart .cartTab {
+/* .showCart .cartTab {
   inset: 0 0 0 auto; /* makes the shopping cart visible */
-/*} 
-*/
+/* } */
+
 .cartTab * {
   background-color: transparent;
 }
