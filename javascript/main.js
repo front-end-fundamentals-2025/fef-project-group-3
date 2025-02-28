@@ -33,14 +33,21 @@ reviewsButton.addEventListener("click", function (event) {
 
 /* Reviews Button - End*/
 
-/* Switching Pictures Product 1 start help https://www.w3schools.com/css/css_z-index.asp*/
+/* Switching Pictures Product 1 start help Eveline Videos */
 
 const nextButton = document.querySelector(".next-img");
+const previousButton = document.querySelector(".previous-img");
 const productImages = document.querySelector(".product-images");
 
-nextButton.addEventListener("click", function (event) {
-  productImages.style.backgroundColour = "000000";
+nextButton.addEventListener("click", function (image) {
+  productImages.style.background = "#000000";
 });
+
+previousButton.addEventListener("click", function (image) {
+  productImages.style.background = "";
+});
+
+/* Switching Pictures Product 1 end help Eveline Videos */
 
 /* SHOPPING CART TAB */
 let iconCart = document.querySelector(".icon-cart");

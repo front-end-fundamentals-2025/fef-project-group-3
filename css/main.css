@@ -17,50 +17,77 @@ main {
   font-size: 5rem;
 }
 
-#welcome-slogan {
-  font-family: "Times New Roman", Times, serif;
+/* start z-index, learned from w3schools https://www.w3schools.com/css/css_z-index.asp*/
+#welcome-image {
+  position: relative;
+  z-index: 1;
 }
+
+#welcome-slogan {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 450px;
+  background: none;
+  align-self: center;
+  font-size: 2rem;
+  z-index: 2;
+}
+
+/* End Help w3Schools*/
 
 .homepage-image {
   width: 20%;
   margin: 0.5%;
 }
+
 .homepage-images {
   display: flex;
   flex-direction: row;
   overflow: auto;
-  animation-name: gallery;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
 }
 
-@keyframes gallery {
-  10% {
-    translate: 0px;
-  }
+#browse-all-button {
+  width: 200px;
+  height: 70px;
+  margin-top: 2%;
 
-  100% {
-    translate: -290px;
-  }
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-.homepage-links-contianer {
-  display: grid;
-  grid-template-columns: repeat(1, 2fr);
+.homepage-links-containter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
   justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
 .homepage-links-images {
-  margin-top: 10%;
-  width: 45%;
+  position: relative;
+  z-index: 1;
 }
+
+.homepage-links-header {
+  position: absolute;
+  z-index: 2;
+}
+
 /* ----- PRODUCTS ----- */
 #filter {
   /* button specifics*/
   width: 200px;
   height: 70px;
+
   /* button looks*/
-  border-radius: 20px;
   background-color: black;
   border: none;
 
@@ -74,7 +101,6 @@ main {
 /* Common for all products START*/
 .product-img {
   width: 100%;
-  border-radius: 10%;
 }
 
 .product-caption-heading {
@@ -101,86 +127,30 @@ main {
 /* Common for all products END*/
 
 /* Individual for each product START */
+
 .product-1 {
   margin-top: 10%;
   width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
+  height: 600px;
+  background-color: rgb(215, 214, 214);
 }
 
-.product-2 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-3 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-4 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-5 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-6 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-7 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-8 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-9 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
-
-.product-10 {
-  margin-top: 10%;
-  width: 95%;
-  height: 500px;
-  background-color: rgb(229, 216, 216);
-  border-radius: 10%;
-}
 /* Individual for each product END*/
+
+.add-to-cart-button {
+  width: 200px;
+  height: 50px;
+
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
 
 /* ---- PRODUCT 1 ---- */
 .product-1-page-container {
@@ -202,9 +172,8 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
 }
 
 .product-images {
-  display: block;
-  /* background-image: url(../images/mockup-product1.png); */
-  background-color: brown;
+  background-image: url(../images/mockup-product1.png);
+  /* background-color: brown; */
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -228,7 +197,7 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
 
 .product-description {
   width: 80%;
-  align-self: center;
+  align-content: center;
 }
 
 /*Specifications buttons*/
@@ -388,6 +357,92 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0*/
 }
 
 /* ----- PERSONA ----- */
+
+/*start - For all personas*/
+
+.persona-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+}
+
+.persona-2 {
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+}
+.persona-image {
+  width: 20%;
+}
+
+/*end - For all personas*/
+
+/*start-left aligned personas*/
+.persona1-information {
+  margin-left: 3%;
+}
+
+.persona1-header {
+  font-family: "Vina Sans", serif;
+  font-size: 3rem;
+  text-align: start;
+}
+
+.persona1-description {
+  text-align: start;
+}
+
+.persona1-button {
+  align-self: flex-start;
+  width: 200px;
+  height: 70px;
+  margin-top: 2%;
+
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/*end-left aligned personas*/
+
+/*start-right aligned personas*/
+.persona2-information {
+  margin-right: 5%;
+  align-items: flex-end;
+}
+
+.persona2-header {
+  font-family: "Vina Sans", serif;
+  font-size: 3rem;
+  text-align: end;
+}
+
+.persona2-description {
+  text-align: end;
+}
+
+.persona2-button {
+  width: 200px;
+  height: 70px;
+  margin-top: 2%;
+
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/*end-right aligned personas*/
 
 /* ----- FAQ ----- */
 
