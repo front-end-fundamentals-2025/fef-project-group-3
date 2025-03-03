@@ -16,26 +16,22 @@
          <script src="javascript/main.js" defer></script>
 </head>
 <body class="showCart">
-    <header>
-        <a href="index.html">
-          <figure id="logotype">
-            <img id="logo" src="images/logotype.png" alt="" />
-          </figure>
+  <header>
+    <nav>
+      <ul>
+        <a id="menu-items" href="index.html">
+          <img id="logo_icon" src="images/logotype.png" alt=""
+        /></a>
+        <a id="menu-items" href="products.html"><li>Products</li></a>
+        <a id="menu-items" href="persona.html"><li>Persona</li></a>
+        <a id="menu-items" href="faq.html"><li>F.A.Q.</li></a>
+        <a id="menu-items" href="about.html"><li>About</li></a>
+        <a id="menu-items" href="cart.html" id="cart_link">
+          <img id="cart_icon" src="images/cart_icon.png" alt="Cart" />
         </a>
-  
-        <nav>
-          <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="products.html"><li>Products</li></a>
-            <a href="persona.html"><li>Persona</li></a>
-            <a href="faq.html"><li>F.A.Q.</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="cart.html" id="cart_link">
-              <img id="cart_icon" src="images/cart_icon.png" alt="Cart" />
-            </a>
-          </ul>
-        </nav>
-     </header>
+      </ul>
+    </nav>
+  </header>
     
      <!-- Start help w3schools on gallery effect link: https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0--> 
      <main> 
@@ -44,7 +40,14 @@
         <div class="product-img-container">
           <div class="product-images"> 
           </div>
-        <!-- <img class="product-img-2" src="images/mockup-product2.png" alt=""> -->
+          
+          <div class="product-images-buttons">
+            <button class="previous-img"> 
+              <img class="next-img-button-img" src="images/button-left.png" alt=""> </button>
+                  <button class="next-img"> 
+                    <img class="next-img-button-img" src="images/button-right.png" alt="">
+                  </button>
+                </div>
       </div>
 
        <!-- end help w3schools on gallery effect--> 
@@ -78,8 +81,8 @@
       />
      </section> 
     </div> 
-    <button class="previous-img"> <- </button>
-          <button class="next-img"> -></button>
+
+  
           
      </main>
       

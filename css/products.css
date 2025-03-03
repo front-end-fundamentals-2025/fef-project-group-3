@@ -1,0 +1,80 @@
+#pages-header {
+  font-family: "Vina Sans", serif;
+  font-weight: 350;
+  font-size: 5rem;
+}
+
+main {
+  text-align: center;
+}
+
+#filter {
+  /* button specifics*/
+  width: 200px;
+  height: 70px;
+
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Common for all products START*/
+
+.product-img {
+  width: 100%;
+}
+
+.product-caption-heading {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 2rem;
+  background: none;
+}
+
+.product-caption-price {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  background: none;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  justify-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/* Common for all products END*/
+
+/* Individual for each product START */
+
+.product-1 {
+  margin-top: 10%;
+  width: 95%;
+  height: 600px;
+  background-color: rgb(215, 214, 214);
+}
+
+/* Individual for each product END*/
+
+.add-to-cart-button {
+  width: 200px;
+  height: 50px;
+
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}

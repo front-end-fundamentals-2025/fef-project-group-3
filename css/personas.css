@@ -1,0 +1,93 @@
+#pages-header {
+  font-family: "Vina Sans", serif;
+  font-weight: 350;
+  font-size: 5rem;
+}
+
+main {
+  text-align: center;
+}
+
+/*start - For all personas*/
+
+.persona-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+}
+
+.persona-2 {
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+}
+.persona-image {
+  width: 20%;
+}
+
+/*end - For all personas*/
+
+/*start-left aligned personas*/
+.persona1-information {
+  margin-left: 3%;
+}
+
+.persona1-header {
+  font-family: "Vina Sans", serif;
+  font-size: 3rem;
+  text-align: start;
+}
+
+.persona1-description {
+  text-align: start;
+}
+
+.persona1-button {
+  align-self: flex-start;
+  width: 200px;
+  height: 70px;
+  margin-top: 2%;
+
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/*end-left aligned personas*/
+
+/*start-right aligned personas*/
+.persona2-information {
+  margin-right: 5%;
+  align-items: flex-end;
+}
+
+.persona2-header {
+  font-family: "Vina Sans", serif;
+  font-size: 3rem;
+  text-align: end;
+}
+
+.persona2-description {
+  text-align: end;
+}
+
+.persona2-button {
+  width: 200px;
+  height: 70px;
+  margin-top: 2%;
+
+  /* button looks*/
+  background-color: black;
+  border: none;
+
+  /* Text*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}

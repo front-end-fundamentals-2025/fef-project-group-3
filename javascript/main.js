@@ -40,7 +40,7 @@ const previousButton = document.querySelector(".previous-img");
 const productImages = document.querySelector(".product-images");
 
 nextButton.addEventListener("click", function (image) {
-  productImages.style.background = "#000000";
+  productImages.style.backgroundImage = "url('../images/homepage-mockup1.jpg')";
 });
 
 previousButton.addEventListener("click", function (image) {
