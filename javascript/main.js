@@ -1,12 +1,3 @@
-/* Filters button - Start*/
-
-const filterButton = document.querySelector(".filter");
-const filtersDropdown = document.querySelector(".dropdown-filters");
-
-filterButton.addEventListener("click", function (event) {
-  filtersDropdown.classList.toggle("dropdown-filters-show");
-});
-
 /*Kit Contents buttons - Start*/
 
 const contentsButton = document.querySelector(".product-contents");
@@ -58,15 +49,26 @@ previousButton.addEventListener("click", function (image) {
 
 /* Switching Pictures Product 1 end help Eveline Videos */
 
+/* Filters button - Start*/
+
+const filterButton = document.querySelector(".filter");
+const filtersDropdown = document.querySelector(".dropdown-filters");
+
+filterButton.addEventListener("click", function (event) {
+  filtersDropdown.classList.toggle("dropdown-filters-show");
+});
+
+/* Filters button - end*/
+
 /* SHOPPING CART TAB */
-let iconCart = document.querySelector(".icon-cart");
-let closeCart = document.querySelector(".close");
-let body = document.querySelector("body");
+// let iconCart = document.querySelector(".icon-cart");
+// let closeCart = document.querySelector(".close");
+// let body = document.querySelector("body");
 
-iconCart.addEventListener("click", () => {
-  body.classList.toggle("showCart");
-});
+// iconCart.addEventListener("click", () => {
+//   body.classList.toggle("showCart");
+// });
 
-closeCart.addEventListener("click", () => {
-  body.classList.toggle("showCart");
-});
+// closeCart.addEventListener("click", () => {
+//   body.classList.toggle("showCart");
+// });
