@@ -72,3 +72,14 @@ filterButton.addEventListener("click", function (event) {
 // closeCart.addEventListener("click", () => {
 //   body.classList.toggle("showCart");
 // });
+
+/* CORRECT METHOD W/ OBJECT (not done at all) */
+
+// Store object
+
+localStorage.student = JSON.stringify(student);
+
+// Fetch object
+
+let newStudent = JSON.parse(localStorage.student);
+console.log(newStudent.name);

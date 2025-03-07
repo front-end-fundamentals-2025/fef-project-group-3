@@ -228,20 +228,20 @@ main {
   grid-template-rows: 70px 1fr 70px;
 }
 
-/* .showCart .cartTab {
+.showCart .cartTab {
   inset: 0 0 0 auto; /* makes the shopping cart visible */
-/* } */
+}
 
 .cartTab * {
   background-color: transparent;
 }
 
-.cartTab h1 {
+.cartTab-title {
   font-family: "Vina Sans", serif;
   font-weight: 300;
   font-size: 3rem;
   padding-left: 20px;
-  margin-top: 5px;
+  margin-top: 55px;
 }
 
 .cartTab-buttons {
@@ -249,7 +249,7 @@ main {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.cartTab-buttons button {
+.cart_button {
   font-family: "Vina Sans", serif;
   font-weight: 300;
   font-size: 1.5rem;
@@ -258,20 +258,27 @@ main {
   cursor: pointer; /* might remove later */
 }
 
-.cartTab-buttons .close {
+.close_carttab {
   background-color: blueviolet;
 }
 
-.cartTab .item .image img {
+/*
+.checkout_carttab {
+  background-color: blue;
+}*/
+
+.cart_item-image img {
   width: 100%;
+  margin-left: 20px;
 }
 
-.cartTab .item {
+.cart_item {
   display: grid;
   grid-template-columns: 70px 150px 50px 1fr;
   gap: 10px;
   text-align: center;
   align-items: center; /* nödvändig? */
+  margin-top: 55px;
 }
 
 /* the whole quantity of the products chosen */
@@ -285,13 +292,13 @@ main {
 }
 
 /* the actual number on the quantity */
-.quantity span:nth-child(2) {
+.quantity_number {
   background-color: transparent;
   color: white;
 }
 
 /* the background will be gray for every other item added */
-.listCart .item:nth-child(even) {
+.listCart .cart_item:nth-child(even) {
   background-color: gray;
 }
 
