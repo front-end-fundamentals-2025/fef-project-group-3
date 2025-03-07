@@ -77,9 +77,9 @@ filterButton.addEventListener("click", function (event) {
 
 // Store object
 
-localStorage.student = JSON.stringify(student);
+// localStorage.student = JSON.stringify(student);
 
 // Fetch object
 
-let newStudent = JSON.parse(localStorage.student);
-console.log(newStudent.name);
+// let newStudent = JSON.parse(localStorage.student);
+// console.log(newStudent.name);

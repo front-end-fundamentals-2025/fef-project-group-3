@@ -2,11 +2,17 @@
   font-family: "Vina Sans", serif;
   font-weight: 350;
   font-size: 5rem;
+  margin-top: 100px;
+  margin-left: 5%;
 }
 
-main {
-  text-align: center;
+#page-description {
+  margin-left: 5%;
 }
+
+/* main {
+  text-align: center;
+} */
 
 /*start - For all personas*/
 
