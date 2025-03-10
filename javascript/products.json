@@ -1,69 +1,69 @@
 [
   {
-    "productId": 1,
+    "productId": 0,
     "productName": "THE PARTY PRINCESS KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 2,
+    "productId": 1,
     "productName": "THE DIY QUEEN KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 3,
+    "productId": 2,
     "productName": "THE FASHION ICON KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 4,
+    "productId": 3,
     "productName": "THE KING ON THE DANCEFLOOR KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 5,
+    "productId": 4,
     "productName": "THE COUCH POTATO KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 6,
+    "productId": 5,
     "productName": "THE CAMREA HOG KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 7,
+    "productId": 6,
     "productName": "THE EXAM WRITER KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 8,
+    "productId": 7,
     "productName": "THE NETWORKER KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 9,
+    "productId": 8,
     "productName": "THE HUNGOVER WRECK KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"
   },
 
   {
-    "productId": 10,
+    "productId": 9,
     "productName": "THE SELFCARE LOVER KIT",
     "productPrice": 149,
     "image": "images/product-mockup.png"

@@ -228,7 +228,7 @@ main {
   grid-template-rows: 70px 1fr 70px;
 }
 
-.showCart .cartTab {
+.showCart {
   inset: 0 0 0 auto; /* makes the shopping cart visible */
 }
 
@@ -267,12 +267,12 @@ main {
   background-color: blue;
 }*/
 
-.cart_item-image img {
+.cart-item-image {
   width: 100%;
   margin-left: 20px;
 }
 
-.cart_item {
+.cart-item {
   display: grid;
   grid-template-columns: 70px 150px 50px 1fr;
   gap: 10px;
