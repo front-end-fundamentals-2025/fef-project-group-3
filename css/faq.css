@@ -1,0 +1,128 @@
+/* DROPDOWNS */
+/*all dropdown buttons*/
+.faq-buttons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+/* Start Help taken/dropdown funciton learned from w3shools https://www.w3schools.com/css/css_dropdowns.asp*/
+.faq-shipping {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-faq-shipping {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-faq-shipping-show {
+  display: block;
+  text-align: start;
+}
+
+.faq-returns {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-faq-returns {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-faq-returns-show {
+  display: block;
+  text-align: start;
+}
+
+.faq-wrong-product {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-faq-wrong-product {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-faq-wrong-product-show {
+  display: block;
+  text-align: start;
+}
+
+.faq-order-status {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-faq-order-status {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-faq-order-status-show {
+  display: block;
+  text-align: start;
+}
+
+.faq-broken-product {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-faq-broken-product {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-faq-broken-product-show {
+  display: block;
+  text-align: start;
+}
+
+#faq-questions {
+  font-family: "Vina Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+#faq-dont_hesitate {
+  font-family: "Vina Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 20px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+
+.faq-submit-button {
+  margin-left: 20px;
+  cursor: pointer;
+}

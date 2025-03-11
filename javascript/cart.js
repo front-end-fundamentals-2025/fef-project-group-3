@@ -42,8 +42,7 @@ add_to_cartElement.forEach((add_to_cartElement) => {
     .then((products) => {
       add_to_cartElement.addEventListener("click", function () {
         cartTab.classList.toggle("showCart");
-        console.log("success!");
-
+        
         const dataId = add_to_cartElement.getAttribute("data-id");
         const addItem = products[dataId];
         const itemDetails =
@@ -58,7 +57,7 @@ add_to_cartElement.forEach((add_to_cartElement) => {
           "'</span> </li>";
 
         ourList.innerHTML += itemDetails;
-        console.log(addItem.price);
+        console.log(addItem.productPricerice);
       });
     });
 });
