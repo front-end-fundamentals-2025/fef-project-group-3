@@ -33,10 +33,9 @@ const add_to_cartElement = document.querySelectorAll(".add-to-cart");
 }
  */
 
-/* done with the help of lab assistents */
-
 /*Spara i local Storage sen if statement*/
 
+/* done with the help of lab assistents */
 add_to_cartElement.forEach((add_to_cartElement) => {
   const ourList = document.getElementById("inner-list");
 
@@ -60,7 +59,7 @@ add_to_cartElement.forEach((add_to_cartElement) => {
           "'</span> </li>";
 
         ourList.innerHTML += itemDetails;
-        console.log(addItem.productPricerice);
+        console.log(addItem.productPrice);
       });
     });
 });
