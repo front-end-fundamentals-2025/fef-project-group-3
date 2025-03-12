@@ -144,3 +144,24 @@ footer p {
   padding-right: 40px;
   padding-bottom: 10px;
 }
+
+/* Responsiveness - start */
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 690px) {
+}
+
+@media screen and (max-width: 460px) {
+  #logo-icon {
+    width: 100%;
+  }
+
+  .header-ul {
+    font-size: 0.7rem;
+    overflow: none;
+  }
+}
+
+/* Responsiveness - end */
