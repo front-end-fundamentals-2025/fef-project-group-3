@@ -1,0 +1,65 @@
+#continue-shopping-button {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: black;
+}
+
+h2 {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.delivery-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  margin-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 1000px;
+}
+
+h2,
+h3 {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.payment-form {
+  margin-bottom: 10px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.payment-form input {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.place_order_button {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media screen and (max-width: 690px) {
+  .delivery-form {
+    grid-template-columns: 1fr;
+  }
+
+  .payment-form {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}

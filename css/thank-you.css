@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  gap: 30px;
+}
+
+.thankYou_img {
+  display: flex;
+  opacity: 100%;
+  width: 30%;
+  animation: appear 5s ease-in-out infinite alternate;
+}
+
+/* keyframes is loosely inspired of a youtube video*/
+/* https://youtu.be/0TnO1GzKWPc?si=Dtxe57ba64f3R1ow */
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  40% {
+    transform: rotate(2deg) scale(1.05);
+  }
+
+  70% {
+    transform: rotate(-2deg) scale(1.05);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+#back-to-homepage-button {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: white;
+}

@@ -299,16 +299,6 @@ main {
   overflow: auto;
 }
 
-/* ----- ABOUT ----- */
-
-/* ----- CART ----- */
-
-#continue-shopping-button {
-  font-family: "Vina Sans", serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  color: black;
-}
 
 @media screen and (max-width: 900px) {
 }
