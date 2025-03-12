@@ -304,9 +304,9 @@ main {
 }
 
 /* the background will be gray for every other item added */
-.listCart .cart_item:nth-child(even) {
+/* .listCart .cart_item:nth-child(even) {
   background-color: gray;
-}
+} */
 
 /* generate scroll bar if to many items are added to fit the screen */
 .listCart {

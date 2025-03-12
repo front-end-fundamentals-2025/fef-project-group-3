@@ -38,9 +38,29 @@ let newDog = JSON.parse(localStorage.dog);
 console.log(newDog);
 // console.log(newDog.name);
 
-
-
 /* let item
               cart_itemElement
               localStorage.item = item; */
 
+const iconCart = document.querySelector("#cart_icon");
+const closeCart = document.querySelector(".close_carttab");
+const cartTab = document.querySelector(".cartTab");
+const add_to_cartElement = document.querySelectorAll(".add-to-cart");
+const innerList = document.querySelector(".inner-list");
+const cartItem = document.getElementsByClassName("cart_item");
+
+iconCart.addEventListener("click", function (event) {
+  cartTab.classList.toggle("showCart");
+});
+
+closeCart.addEventListener("click", function (event) {
+  cartTab.classList.toggle("showCart");
+});
+
+listCart.innerHTML = localStorage.cart_item;
+
+add_to_cartElement.addEventListener("click", function (event) {
+  let cart_item = innerList.value;
+  innerList.innerHTML = cart_item;
+  localStorage.cart_item = cart_item;
+});
