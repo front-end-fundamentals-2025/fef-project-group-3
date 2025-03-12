@@ -267,22 +267,28 @@ main {
   background-color: blue;
 }*/
 
-.cart-item-image {
-  width: 100%;
-  margin-left: 20px;
-}
-
 .cart-item {
   display: grid;
   grid-template-columns: 70px 150px 50px 1fr;
   gap: 10px;
   text-align: center;
   align-items: center; /* nödvändig? */
-  margin-top: 55px;
+  margin-top: 50px;
 }
 
+.cart-item-image {
+  width: 100%;
+  margin-left: 0px;
+}
+
+/* .cart-item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+} */
+
 /* the whole quantity of the products chosen */
-.quantity span {
+.cart-item-quantity span {
   display: inline-block;
   width: 15px;
   height: 20px;
@@ -306,12 +312,6 @@ main {
 .listCart {
   overflow: auto;
 }
-
-/* ----- PERSONA ----- */
-
-/*end-right aligned personas*/
-
-/* ----- FAQ ----- */
 
 /* ----- ABOUT ----- */
 

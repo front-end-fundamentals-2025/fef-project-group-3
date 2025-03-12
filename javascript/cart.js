@@ -56,7 +56,13 @@ add_to_cartElement.forEach((add_to_cartElement) => {
           addItem.productName +
           "'</span> <span class='cart-item-price'> '" +
           addItem.productPrice +
-          "'</span> </li>";
+          "'</span> '";
+        "<div class='cart-item-quantity'>" +
+          "'<span class='quantity_minus'>-</span>'" +
+          "'<span class='quantity_number'>1</span>'" +
+          "'<span class='quantity_plus'>+</span>'" +
+          "</div>" +
+          "</li>";
 
         ourList.innerHTML += itemDetails;
         console.log(addItem.productPrice);
