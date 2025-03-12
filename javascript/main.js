@@ -1,3 +1,14 @@
+/* Filters button - Start*/
+
+const filterButton = document.querySelector(".filter");
+const filtersDropdown = document.querySelector(".dropdown-filters");
+
+filterButton.addEventListener("click", function (event) {
+  filtersDropdown.classList.toggle("dropdown-filters-show");
+});
+
+/* Filters button - end*/
+
 /*Kit Contents buttons - Start*/
 
 const contentsButton = document.querySelector(".product-contents");
@@ -35,28 +46,16 @@ reviewsButton.addEventListener("click", function (event) {
 
 /* Switching Pictures Product 1 start help Eveline Videos */
 
-const nextButton = document.querySelector(".next-img");
-const previousButton = document.querySelector(".previous-img");
-const productImages = document.querySelector(".product-images");
+// const nextButton = document.querySelector(".next-img");
+// const previousButton = document.querySelector(".previous-img");
+// const productImages = document.querySelector(".product-images");
 
-nextButton.addEventListener("click", function (image) {
-  productImages.style.backgroundImage = "url('../images/homepage-mockup1.jpg')";
-});
+// nextButton.addEventListener("click", function (image) {
+//   productImages.style.backgroundImage = "url('../images/homepage-mockup1.jpg')";
+// });
 
-previousButton.addEventListener("click", function (image) {
-  productImages.style.background = "";
-});
+// previousButton.addEventListener("click", function (image) {
+//   productImages.style.background = "";
+// });
 
 /* Switching Pictures Product 1 end help Eveline Videos */
-
-/* Filters button - Start*/
-
-const filterButton = document.querySelector(".filter");
-const filtersDropdown = document.querySelector(".dropdown-filters");
-
-filterButton.addEventListener("click", function (event) {
-  filtersDropdown.classList.toggle("dropdown-filters-show");
-});
-
-/* Filters button - end*/
-
