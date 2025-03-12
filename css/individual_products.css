@@ -1,0 +1,130 @@
+/* ---- PRODUCT 1 ---- */
+.product-1-page-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* Help Eveline and Eveline video on JS changing pictures*/
+.product-img-container {
+  width: 90%;
+}
+
+.product-images {
+  background-image: url(../images/party-princess.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+/* End Eveline and Eveline video on JS changing pictures*/
+
+.product-title {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.product-pricing {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+.product-description {
+  width: 80%;
+  align-content: center;
+}
+
+/*Specifications buttons*/
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Start Help taken/dropdown funciton learned from w3shools https://www.w3schools.com/css/css_dropdowns.asp*/
+.product-contents {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-product-contents {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-product-contents-show {
+  display: block;
+  text-align: start;
+}
+
+.product-specifications {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-product-specifications {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-product-specifications-show {
+  display: block;
+  text-align: start;
+}
+
+.product-reviews {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.dropdown-product-reviews {
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-product-reviews-show {
+  display: block;
+  text-align: start;
+}
+
+.product-images-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1%;
+}
+.next-img-button-img {
+  width: 100px;
+}
+
+.previous-img {
+  border: none;
+}
+
+.next-img {
+  border: none;
+}
+
+.add-to-cart {
+  width: 40%;
+  margin-top: 40px;
+  /* möjligtvis ta bort cursor när länken funkar*/
+  cursor: pointer;
+}
