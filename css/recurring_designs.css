@@ -27,7 +27,7 @@ font-family: "Newsreader", serif;
 
 /* the whole navigation menu list */
 /* Help Mira and w3schools for moving menu bar*/
-ul {
+.header-ul {
   display: flex;
   list-style: none;
   position: fixed;
@@ -72,6 +72,7 @@ a {
 /* cart icon */
 #cart_icon {
   width: 30px;
+  cursor: pointer;
 }
 
 #cart_link {

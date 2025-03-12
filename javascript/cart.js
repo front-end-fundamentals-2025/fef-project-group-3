@@ -34,6 +34,9 @@ const add_to_cartElement = document.querySelectorAll(".add-to-cart");
  */
 
 /* done with the help of lab assistents */
+
+/*Spara i local Storage sen if statement*/
+
 add_to_cartElement.forEach((add_to_cartElement) => {
   const ourList = document.getElementById("inner-list");
 
@@ -42,7 +45,7 @@ add_to_cartElement.forEach((add_to_cartElement) => {
     .then((products) => {
       add_to_cartElement.addEventListener("click", function () {
         cartTab.classList.toggle("showCart");
-        
+
         const dataId = add_to_cartElement.getAttribute("data-id");
         const addItem = products[dataId];
         const itemDetails =

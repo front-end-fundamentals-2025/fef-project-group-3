@@ -255,11 +255,11 @@ main {
   font-size: 1.5rem;
   background-color: blue;
   border: none;
-  cursor: pointer; /* might remove later */
 }
 
 .close_carttab {
   background-color: blueviolet;
+  cursor: pointer;
 }
 
 /*
