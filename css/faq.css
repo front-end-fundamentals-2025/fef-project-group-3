@@ -126,3 +126,7 @@ form {
   margin-left: 20px;
   cursor: pointer;
 }
+
+.submit-image {
+    width: 10%;
+}

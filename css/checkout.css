@@ -53,6 +53,10 @@ input {
   color: black;
 }
 
+.place-order-image {
+  width: 15%;
+}
+
 @media screen and (max-width: 690px) {
   .delivery-form {
     grid-template-columns: 1fr;
