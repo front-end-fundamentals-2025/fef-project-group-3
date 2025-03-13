@@ -48,3 +48,19 @@ main {
   font-size: 1.5rem;
   color: white;
 }
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 690px) {
+    .thankYou_img {
+        width: 40%;
+      }
+}
+
+@media screen and (max-width: 460px) {
+    .thankYou_img {
+        width: 50%;
+      }
+}
+

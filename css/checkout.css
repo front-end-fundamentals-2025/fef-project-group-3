@@ -57,6 +57,9 @@ input {
   width: 15%;
 }
 
+@media screen and (max-width: 900px) {
+}
+
 @media screen and (max-width: 690px) {
   .delivery-form {
     grid-template-columns: 1fr;
@@ -65,5 +68,15 @@ input {
   .payment-form {
     padding-left: 20%;
     padding-right: 20%;
+  }
+
+  .place-order-image {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .place-order-image {
+    width: 25%;
   }
 }

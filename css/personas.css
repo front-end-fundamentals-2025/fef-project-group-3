@@ -88,11 +88,18 @@
 }
 
 @media screen and (max-width: 690px) {
+  .go-to-product-button {
+    width: 55%;
+  }
   /*Persona 1 start*/
 }
 
 @media screen and (max-width: 460px) {
   .persona-image {
+    width: 70%;
+  }
+
+  .go-to-product-button {
     width: 70%;
   }
 

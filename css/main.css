@@ -49,6 +49,7 @@
 }
 
 @media screen and (max-width: 690px) {
+  
 }
 
 @media screen and (max-width: 460px) {
@@ -59,11 +60,10 @@
   .homepage-image {
     width: 60%;
   }
-  #browse-all-button {
-    width: 130px;
-    height: 40px;
-    font-size: 0.6rem;
+  .browse-all-image {
+    width: 50%;
   }
+
   .homepage-links-containter {
     display: flex;
     flex-direction: column;
