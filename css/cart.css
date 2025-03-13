@@ -1,100 +1,99 @@
 /* shopping cart tab
   (will move in the future, maybe to recurring designs?) */
-  .cartTab {
-    width: 400px;
-    background-color: red;
-    color: white;
-    position: fixed;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    inset: 0 -400px 0 auto; /* makes the shopping cart invisible (off the screen to the right) */
-    display: grid;
-    grid-template-rows: 70px 1fr 70px;
-  }
-  
-  .showCart {
-    inset: 0 0 0 auto; /* makes the shopping cart visible */
-  }
-  
-  .cartTab * {
-    background-color: transparent;
-  }
-  
-  .cartTab-title {
-    font-family: "Vina Sans", serif;
-    font-weight: 300;
-    font-size: 3rem;
-    padding-left: 20px;
-    margin-top: 55px;
-  }
-  
-  .cartTab-buttons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .cart_button {
-    font-family: "Vina Sans", serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    background-color: blue;
-    border: none;
-  }
-  
-  .close_carttab {
-    background-color: blueviolet;
-    cursor: pointer;
-  }
-  
-  /*
+.cartTab {
+  width: 400px;
+  background-color: red;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  inset: 0 -400px 0 auto; /* makes the shopping cart invisible (off the screen to the right) */
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+}
+
+.showCart {
+  inset: 0 0 0 auto; /* makes the shopping cart visible */
+}
+
+.cartTab * {
+  background-color: transparent;
+}
+
+.cartTab-title {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 3rem;
+  padding-left: 20px;
+  margin-top: 55px;
+}
+
+.cartTab-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cart_button {
+  font-family: "Vina Sans", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  background-color: blue;
+  border: none;
+}
+
+.close_carttab {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+/*
     .checkout_carttab {
       background-color: blue;
     }*/
-  
-  .cart-item {
-    display: grid;
-    grid-template-columns: 70px 150px 50px 1fr;
-    gap: 10px;
-    text-align: center;
-    align-items: center; /* nödvändig? */
-    margin-top: 50px;
-  }
-  
-  .cart-item-image {
-    width: 100%;
-    margin-left: 0px;
-  }
-  
-  /* .cart-item-quantity {
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center; /* nödvändig? */
+  margin-top: 50px;
+}
+
+.cart-item-image {
+  width: 100%;
+  margin-left: 0px;
+}
+
+/* .cart-item-quantity {
       display: flex;
       align-items: center;
       gap: 5px;
     } */
-  
-  /* the whole quantity of the products chosen */
-  .cart-item-quantity span {
-    display: inline-block;
-    width: 15px;
-    height: 20px;
-    background-color: white;
-    border-radius: 20%;
-    cursor: pointer; /* might remove later */
-  }
-  
-  /* the actual number on the quantity */
-  .quantity_number {
-    background-color: transparent;
-    color: white;
-  }
-  
-  /* the background will be gray for every other item added */
-  /* .listCart .cart_item:nth-child(even) {
+
+/* the whole quantity of the products chosen */
+.cart-item-quantity span {
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  background-color: white;
+  border-radius: 20%;
+  cursor: pointer; /* might remove later */
+}
+
+/* the actual number on the quantity */
+.quantity_number {
+  background-color: transparent;
+  color: white;
+}
+
+/* the background will be gray for every other item added */
+/* .listCart .cart_item:nth-child(even) {
       background-color: gray;
     } */
-  
-  /* generate scroll bar if to many items are added to fit the screen */
-  .listCart {
-    overflow: auto;
-  }
-  
+
+/* generate scroll bar if to many items are added to fit the screen */
+.listCart {
+  overflow: auto;
+}
