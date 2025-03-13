@@ -38,6 +38,23 @@
   text-align: start;
 }
 
+/* title colors */
+.party-princess {
+  color: rgb(241, 11, 128);
+}
+.camera-hog {
+  color: rgb(195, 228, 61);
+}
+.hungover-wreck {
+  color: rgb(2, 204, 192);
+}
+.fashion-icon {
+  color: rgb(205, 15, 15);
+}
+.king-on-dancefloor {
+  color: rgb(253, 97, 31);
+}
+
 .persona1-description {
   text-align: start;
   padding-right: 20%;
@@ -62,6 +79,23 @@
   font-family: "Vina Sans", serif;
   font-size: 3rem;
   text-align: end;
+}
+
+/* title colors */
+.couch-potato {
+  color: rgb(252, 207, 6);
+}
+.selfcare-lover {
+  color: rgb(201, 184, 255);
+}
+.networker {
+  color: rgb(57, 57, 253);
+}
+.diy-queen {
+  color: rgb(255, 150, 183);
+}
+.exam-writer {
+  color: rgb(2, 94, 34);
 }
 
 .persona2-description {
