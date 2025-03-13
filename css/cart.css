@@ -51,6 +51,7 @@
     .checkout_carttab {
       background-color: blue;
     }*/
+<<<<<<< HEAD
 
 .cart-item {
   display: grid;
@@ -67,6 +68,24 @@
 }
 
 /* .cart-item-quantity {
+=======
+  
+  .cart-item {
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center; /* nödvändig? */
+    margin-top: 50px;
+  }
+  
+  .cart_item-image {
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  /* .cart-item-quantity {
+>>>>>>> c28230d04a7552e7d28ea245e5f247c553a85074
       display: flex;
       align-items: center;
       gap: 5px;
