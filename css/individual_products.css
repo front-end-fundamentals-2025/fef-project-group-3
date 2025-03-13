@@ -1,5 +1,5 @@
 /* ---- PRODUCT 1 ---- */
-.product-1-page-container {
+.product-page-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;

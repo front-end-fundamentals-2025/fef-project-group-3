@@ -1,40 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Final Website</title>
-        <link rel="stylesheet" href="css/individual_products.css" />
-        <link rel="stylesheet" href="css/recurring_designs.css" />
-        <style>
-          @import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
-        </style>
-        <style>
-          @import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
-        </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Website</title>
+    <link rel="stylesheet" href="css/individual_products.css" />
+    <link rel="stylesheet" href="css/recurring_designs.css" />
+    <link rel="stylesheet" href="css/cart.css" />
 
-  <header>
-    <nav>
-      <ul class="header-ul">
-        <a id="menu-items" href="index.html">
-          <img id="logo_icon" src="images/logotype.png" alt=""
-        /></a>
-        <a id="menu-items" href="products.html"><li>Products</li></a>
-        <a id="menu-items" href="persona.html"><li>Persona</li></a>
-        <a id="menu-items" href="faq.html"><li>F.A.Q.</li></a>
-        <a id="menu-items" href="about.html"><li>About</li></a>
-        <a id="menu-items" href="cart.html" id="cart_link">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+    </style>
+    <script src="javascript/individual_products.js" defer></script>
+    <script src="javascript/cart.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="header-ul">
+          <a id="menu-items" href="index.html">
+            <img id="logo_icon" src="images/logotype.png" alt=""
+          /></a>
+          <a id="menu-items" href="products.html"><li>Products</li></a>
+          <a id="menu-items" href="persona.html"><li>Persona</li></a>
+          <a id="menu-items" href="faq.html"><li>F.A.Q.</li></a>
+          <a id="menu-items" href="about.html"><li>About</li></a>
           <img id="cart_icon" src="images/cart_icon.png" alt="Cart" />
-        </a>
-      </ul>
-    </nav>
-  </header>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- start of cart tab -->
+      <div class="cartTab">
+        <h1 class="cartTab-title">Shopping Cart</h1>
+
+        <div class="listCart">
+          <ul id="inner-list"></ul>
+        </div>
+
+        <div id="remove-item">
+          <button class="trashcan-button">
+            <img class="trashcan-img" src="images/trashcan.png" alt="" />
+          </button>
+        </div>
+
+        <div class="cartTab-buttons">
+          <button class="cart_button close_carttab">CLOSE</button>
+          <a href="checkout.html"
+            ><button class="cart_button checkout_carttab">CHECKOUT</button></a
+          >
+        </div>
+      </div>
+      <!-- end of cart tab -->
+
+      <!-- Start help w3schools on gallery effect link: https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp#gsc.tab=0-->
+      <div class="product-page-container">
+        <div class="product-img-container">
+          <img
+            class="product-images"
+            src="images/camera-hog.jpg"
+            alt="Party princess image"
+          />
+        </div>
+        <!-- end help w3schools on gallery effect-->
+
+        <section class="right-side">
+          <h1 class="product-title">CAMERA HOG KIT</h1>
+          <h2 class="product-pricing">149kr</h2>
+          <p class="product-description">
+            Step into the spotlight and own every moment with the Camera Hog
+            Kit—the ultimate pack for anyone who loves being front and center!
+            Whether you're striking poses for selfies, starring in TikToks, or
+            capturing memories with friends, this kit has everything you need to
+            stay picture-perfect and ready for your close-up. Be bold, be extra,
+            and make sure every shot is unforgettable.
+          </p>
+
+          <div class="buttons">
+            <button class="product-contents">KIT CONTENTS</button>
+            <div class="dropdown-product-contents">
+              <p>- Mini Ring Light</p>
+
+              <p>- Pocket Mirror</p>
+
+              <p>- Lip Gloss</p>
+
+              <p>- Sunglasses and a mini sign</p>
+
+              <p>- Pose Card</p>
+            </div>
+
+            <button class="product-specifications">MORE INFORMATION</button>
+            <div class="dropdown-product-specifications">
+              <p>
+                The Camera Hog Kit is designed for those who love the camera and
+                the camera loves them. Small and portable, it’s perfect to throw
+                in your bag and pull out whenever the spotlight hits. Whether
+                it’s for selfies, videos, or group shots, this kit helps you
+                stay confident and ready to slay every frame. Because why blend
+                in when you were born to stand out?
+              </p>
+            </div>
+
+            <button class="product-reviews">REVIEWS</button>
+            <div class="dropdown-product-reviews">
+              <p>
+                ⭐️⭐️⭐️⭐️⭐️ "The mini ring light is a total game-changer! My
+                selfies have never looked better." – Amanda L.
+              </p>
+
+              <p>
+                ⭐️⭐️⭐️⭐️⭐️ "This kit is adorable and actually so useful.
+                Perfect for spontaneous photo shoots with friends." – Clara N.
+              </p>
+
+              <p>
+                ⭐️⭐️⭐️⭐️ "Loved the little pose card! It’s such a fun
+                addition, and the props made our group photos so much cooler." –
+                Josefine K.
+              </p>
+            </div>
+          </div>
+
+          <img
+            data-id="0"
+            class="add-to-cart"
+            src="images/add-to-cart.png"
+            alt="Add to cart button"
+          />
+        </section>
+      </div>
+    </main>
 
     <footer>
-    <a href="index.html">
+      <a href="index.html">
         <figure id="logotype_footer">
           <img
             id="logo_footer"
@@ -76,6 +180,6 @@
       </div>
 
       <p class="footer_copyright">© 2025 Dormside Collective</p>
-    </footer> 
-</body>
+    </footer>
+  </body>
 </html>

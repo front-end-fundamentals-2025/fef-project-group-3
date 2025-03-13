@@ -11,6 +11,14 @@ cartItem.classList.add("cart_item");
 cartItem.innerText = "PARTY PRINCESS KIT - 149 KR";
 let item = "PARTY PRINCESS KIT - 149KR";
 
+iconCart.addEventListener("click", function (event) {
+  cartTab.classList.toggle("showCart");
+});
+
+closeCart.addEventListener("click", function (event) {
+  cartTab.classList.toggle("showCart");
+});
+
 addToCartButton.addEventListener("click", function (event) {
   innerList.appendChild(cartItem);
   let newItem = cartItem.value;
@@ -19,12 +27,4 @@ addToCartButton.addEventListener("click", function (event) {
 
 removeItemButton.addEventListener("click", function (event) {
   cartItem.remove();
-});
-
-iconCart.addEventListener("click", function (event) {
-  cartTab.classList.toggle("showCart");
-});
-
-closeCart.addEventListener("click", function (event) {
-  cartTab.classList.toggle("showCart");
 });
