@@ -131,6 +131,10 @@
     height: 40px;
     font-size: 0.6rem;
   }
+
+  .product-caption-heading {
+    font-size: 1.5rem;
+  }
 }
 
 /* Responsiveness - end */

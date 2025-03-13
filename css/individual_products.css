@@ -3,15 +3,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 2%;
   margin-right: 2%;
 }
 
 /* Help Eveline and Eveline video on JS changing pictures*/
-/* .product-img-container {
-  width: 70%;
-} */
 
 .product-images {
   width: 90%;
@@ -132,6 +129,22 @@
 .add-to-cart {
   width: 40%;
   margin-top: 40px;
-  /* möjligtvis ta bort cursor när länken funkar*/
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 690px) {
+  .product-page-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .product-page-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

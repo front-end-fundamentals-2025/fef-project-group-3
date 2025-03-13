@@ -32,19 +32,3 @@ reviewsButton.addEventListener("click", function (event) {
 });
 
 /* Reviews Button - End*/
-
-/* Switching Pictures Product 1 start help Eveline Videos */
-
-// const nextButton = document.querySelector(".next-img");
-// const previousButton = document.querySelector(".previous-img");
-// const productImages = document.querySelector(".product-images");
-
-// nextButton.addEventListener("click", function (image) {
-//   productImages.style.backgroundImage = "url('../images/homepage-mockup1.jpg')";
-// });
-
-// previousButton.addEventListener("click", function (image) {
-//   productImages.style.background = "";
-// });
-
-/* Switching Pictures Product 1 end help Eveline Videos */
