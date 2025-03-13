@@ -49,8 +49,6 @@ add_to_cartElement.forEach((add_to_cartElement) => {
     .then((products) => {
       add_to_cartElement.addEventListener("click", function (event) {
         cartTab.classList.toggle("showCart");
-        localStorage.ourList = JSON.stringify(ourList);
-        console.log(ourList[0]);
 
         const dataId = add_to_cartElement.getAttribute("data-id");
         const addItem = products[dataId];
