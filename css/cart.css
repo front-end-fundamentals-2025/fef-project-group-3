@@ -48,49 +48,38 @@
 }
 
 /*
-    .checkout_carttab {
-      background-color: blue;
-    }*/
-<<<<<<< HEAD
+      .checkout_carttab {
+        background-color: blue;
+      }*/
 
-.cart-item {
-  display: grid;
-  grid-template-columns: 70px 150px 50px 1fr;
-  gap: 10px;
+.cart_item {
+  /* display: grid; */
+  /* image-rendering: url(../images/party-princess.jpg); */
+  /* grid-template-columns: 70px 150px 50px 1fr; */
+  /* gap: 10px; */
   text-align: center;
-  align-items: center; /* nödvändig? */
-  margin-top: 50px;
+  align-items: flex-end; /*nödvändig?*/
+  margin-top: 100px;
 }
 
-.cart-item-image {
+.cart_item-image {
   width: 100%;
   margin-left: 0px;
 }
 
+.trashcan-img {
+  width: 8%;
+  margin-left: 70%;
+}
+
+.trashcan-button {
+  border: none;
+}
 /* .cart-item-quantity {
-=======
-  
-  .cart-item {
-    display: grid;
-    grid-template-columns: 70px 150px 50px 1fr;
-    gap: 10px;
-    text-align: center;
-    align-items: center; /* nödvändig? */
-    margin-top: 50px;
-  }
-  
-  .cart_item-image {
-    width: 100%;
-    margin-left: 0px;
-  }
-  
-  /* .cart-item-quantity {
-  
->>>>>>> c28230d04a7552e7d28ea245e5f247c553a85074
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    } */
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      } */
 
 /* the whole quantity of the products chosen */
 .cart-item-quantity span {
@@ -110,8 +99,8 @@
 
 /* the background will be gray for every other item added */
 /* .listCart .cart_item:nth-child(even) {
-      background-color: gray;
-    } */
+        background-color: gray;
+      } */
 
 /* generate scroll bar if to many items are added to fit the screen */
 .listCart {

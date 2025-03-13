@@ -1,3 +1,4 @@
+Product 1 HTML
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,7 +18,8 @@
     <script src="javascript/individual_products.js" defer></script>
     <script src="javascript/cart.js" defer></script>
   </head>
-  <body class="showCart">
+
+  <body>
     <header>
       <nav>
         <ul class="header-ul">
@@ -40,23 +42,12 @@
 
         <div class="listCart">
           <ul id="inner-list"></ul>
-          <div class="cart_item">
-            <div class="cart_item-image">
-              <img
-                src="images/party-princess.jpg"
-                alt="shopping cart tab image"
-              />
-            </div>
+        </div>
 
-            <div class="cart_item-name">PARTY PRINCESS KIT</div>
-            <div class="cart_item-totalPrice">149KR</div>
-
-            <div class="cart_item-quantity">
-              <span class="quantity_minus"><</span>
-              <span class="quantity_number">1</span>
-              <span class="quantity_plus">></span>
-            </div>
-          </div>
+        <div id="remove-item">
+          <button class="trashcan-button">
+            <img class="trashcan-img" src="images/trashcan.png" alt="" />
+          </button>
         </div>
 
         <div class="cartTab-buttons">
