@@ -58,7 +58,6 @@ font-family: "Newsreader", serif;
   font-size: small;
 
   height: 15%;
-  width: 100%;
   z-index: 2; /* Learned of z-index w3schools*/
 }
 
@@ -91,6 +90,7 @@ a {
 #cart_icon {
   width: 30px;
   cursor: pointer;
+  padding-left: 5%;
 }
 
 #cart_link {

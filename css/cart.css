@@ -2,8 +2,7 @@
   (will move in the future, maybe to recurring designs?) */
 .cartTab {
   width: 400px;
-  background-color: rgb(199, 218, 240);
-  color: white;
+  background-color: rgb(0,0,0);
   position: fixed;
   right: 0;
   top: 0;
@@ -11,6 +10,9 @@
   inset: 0 -400px 0 auto; /* makes the shopping cart invisible (off the screen to the right) */
   display: grid;
   grid-template-rows: 70px 1fr 70px;
+
+  /* justify-content: center;
+  align-self: center; */
 }
 
 .showCart {
@@ -27,6 +29,7 @@
   font-size: 3rem;
   padding-left: 20px;
   margin-top: 150px;
+  color: white;
 }
 
 .cartTab-buttons {
@@ -38,31 +41,33 @@
   font-family: "Vina Sans", serif;
   font-weight: 300;
   font-size: 1.5rem;
-  background-color: blue;
   border: none;
 }
 
 .close_carttab {
-  background-color: blueviolet;
+  background-color: gray;
   cursor: pointer;
 }
 
 .checkout_carttab {
-  background-color: blue;
+  background-color: white;
   width: 200px;
   height: 100px;
+  cursor: pointer;
 }
 
 .cart_item {
-  /* display: grid; */
-  /* image-rendering: url(../images/party-princess.jpg); */
-  /* grid-template-columns: 70px 150px 50px 1fr; */
-  /* gap: 10px; */
-
+  list-style: none;
   text-align: center;
-  align-items: flex-end; /*nödvändig?*/
-  margin-top: 200px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 47%;
+  font-family: "Vina Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+
+  border: 2px solid white;
+  padding: 15px;
+  max-width: 60%;
 }
 
 .cart_item-image {
@@ -77,35 +82,5 @@
 
 .trashcan-button {
   border: none;
-}
-/* .cart-item-quantity {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-      } */
-
-/* the whole quantity of the products chosen */
-.cart-item-quantity span {
-  display: inline-block;
-  width: 15px;
-  height: 20px;
-  background-color: white;
-  border-radius: 20%;
-  cursor: pointer; /* might remove later */
-}
-
-/* the actual number on the quantity */
-.quantity_number {
-  background-color: transparent;
-  color: white;
-}
-
-/* the background will be gray for every other item added */
-/* .listCart .cart_item:nth-child(even) {
-        background-color: gray;
-      } */
-
-/* generate scroll bar if to many items are added to fit the screen */
-.listCart {
-  overflow: auto;
+  cursor: pointer;
 }
