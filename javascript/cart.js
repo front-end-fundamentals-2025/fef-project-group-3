@@ -24,16 +24,23 @@ closeCart.addEventListener("click", function (event) {
   cartTab.classList.toggle("showCart");
 });
 
+if (localStorage.newItem && !document.querySelector(".cart_item")) {
+  innerList.appendChild(cartItem);
+}
+
 /* When add to cart button is pressed, "li" = cart item is added to inner list, which is the list inside the cart tab */
 addToCartButton.addEventListener("click", function (event) {
-  innerList.appendChild(cartItem);
   let newItem =
-    cartItem.value; /*  the value of the cart item is stored in the new item*/
+    "true"; /*  the value of the cart item is stored in the new item*/
+
   localStorage.newItem =
     newItem; /* and this says that a new item + the locally stored value = new item */
+
+  innerList.appendChild(cartItem);
 });
 
 /* removing li = cartItem from inner List */
 removeItemButton.addEventListener("click", function (event) {
   cartItem.remove();
+  localStorage.removeItem("newItem");
 });
