@@ -1,12 +1,6 @@
 /* ----- HOMEPAGE ----- */
 
-#welcome-header {
-  font-family: "Vina Sans", serif;
-  margin-top: 15%;
-  font-weight: 350;
-  font-size: 5rem;
-}
-
+/* "DORMSIDE COLLECTIVE" IMAGE */
 /* start z-index, learned from w3schools https://www.w3schools.com/css/css_z-index.asp*/
 #welcome-image {
   width: 70%;
@@ -15,22 +9,26 @@
 }
 /* End Help w3Schools*/
 
-.homepage-image {
-  width: 20%;
-  margin: 0.5%;
-}
-
+/* ALL THE PRODUCT IMAGES */
 .homepage-images {
   display: flex;
   flex-direction: row;
   overflow: auto;
 }
 
+/* INDIVIDUAL PRODUCT IMAGES */
+.homepage-image {
+  width: 20%;
+  margin: 0.5%;
+}
+
+/* "BROWSE ALL PRODUCTS" BUTTON */
 .browse-all-image {
   width: 30%;
   margin-top: 5%;
 }
 
+/* "ABOUT" & "PERSONA" LINKS */
 .homepage-links-containter {
   display: flex;
   flex-direction: row;
@@ -41,10 +39,12 @@
   align-items: center;
 }
 
+/* images */
 .homepage-links-images {
   width: 90%;
 }
 
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 900px) {
   #welcome-image {
     width: 95%;

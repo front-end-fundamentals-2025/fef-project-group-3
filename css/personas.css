@@ -1,3 +1,4 @@
+/*"FIND OUT WHICH KIT..." TITLE */
 #page-description {
   font-family: "Vina Sans", serif;
   font-weight: 400;
@@ -5,7 +6,7 @@
   margin-top: 5%;
 }
 
-/*start - For all personas*/
+/* ALL PERSONAS */
 .persona-1 {
   display: flex;
   flex-direction: row;
@@ -18,32 +19,37 @@
   margin: 3%;
 }
 
+/* ALL PERSONA IMAGES */
 .persona-image {
   width: 20%;
   height: 30%;
 }
 
+/* ALL THE "GO TO PRODUCT" BUTTONS */
 .go-to-product-button {
   width: 40%;
 }
-/*end - For all personas*/
 
-/*start-left aligned personas*/
+/* ALL LEFT ALIGNED PERSONAS */
+/* all information */
 .persona1-information {
   margin-left: 3%;
 }
 
+/* header */
 .persona1-header {
   font-family: "Vina Sans", serif;
   font-size: 3rem;
   text-align: start;
 }
 
+/* description */
 .persona1-description {
   text-align: start;
   padding-right: 20%;
 }
 
+/* "go to product" button */
 .persona-button {
   align-self: flex-start;
   width: 200px;
@@ -51,42 +57,36 @@
   margin-top: 2%;
   cursor: pointer;
 }
-/*end-left aligned personas*/
 
-/*start-right aligned personas*/
+/* ALL RIGHT ALIGNED PERSONAS */
+/* all information */
 .persona2-information {
   margin-right: 5%;
   align-items: flex-end;
 }
 
+/* header */
 .persona2-header {
   font-family: "Vina Sans", serif;
   font-size: 3rem;
   text-align: end;
 }
 
+/* description */
 .persona2-description {
   text-align: end;
   padding-left: 20%;
 }
 
+/* "go to product" button */
 .persona2-button {
   width: 200px;
   height: 70px;
   margin-top: 2%;
   cursor: pointer;
-
-  /* button looks*/
-  background-color: black;
-  border: none;
-
-  /* Text*/
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
 }
 
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 900px) {
   .persona-image {
     width: 40%;
@@ -180,6 +180,5 @@
   .persona2-information {
     text-align: center;
   }
-
   /*Persona 2 end*/
 }

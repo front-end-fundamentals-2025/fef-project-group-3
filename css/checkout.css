@@ -1,3 +1,4 @@
+/* CONTINUE SHOPPING BUTTON */
 #continue-shopping-button {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -5,13 +6,16 @@
   color: black;
 }
 
-h2 {
+/* BOTH THE "DELIVERY" & "PAYMENT" TITLE */
+h2,
+h3 {
   font-family: "Vina Sans", serif;
   font-weight: 300;
   font-size: 1.5rem;
   color: black;
 }
 
+/* THE WHOLE "DELIVERY" FORM */
 .delivery-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -22,30 +26,26 @@ h2 {
   max-width: 1000px;
 }
 
-h2,
-h3 {
-  font-family: "Vina Sans", serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  color: black;
-}
+/* imput fields */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
 
+/* THE WHOLE "PAYMENT" FORM */
 .payment-form {
   margin-bottom: 10px;
   padding-left: 30%;
   padding-right: 30%;
 }
 
+/* imput fields */
 .payment-form input {
   margin-bottom: 20px;
 }
 
-input {
-  width: 100%;
-  padding: 10px;
-  font-size: 1rem;
-}
-
+/* PLACE ORDER BUTTON */
 .place_order_button {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -53,13 +53,12 @@ input {
   color: black;
 }
 
+/* place order image */
 .place-order-image {
   width: 15%;
 }
 
-@media screen and (max-width: 900px) {
-}
-
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 690px) {
   .delivery-form {
     grid-template-columns: 1fr;

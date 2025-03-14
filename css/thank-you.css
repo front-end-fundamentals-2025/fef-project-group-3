@@ -10,6 +10,7 @@ main {
   gap: 30px;
 }
 
+/* "THANK YOU" IMAGE */
 .thankYou_img {
   display: flex;
   opacity: 100%;
@@ -17,6 +18,7 @@ main {
   animation: appear 5s ease-in-out infinite alternate;
 }
 
+/* ANIMATION TO THE "THANK YOU" IMAGE */
 /* keyframes is loosely inspired of a youtube video*/
 /* https://youtu.be/0TnO1GzKWPc?si=Dtxe57ba64f3R1ow */
 @keyframes appear {
@@ -42,6 +44,7 @@ main {
   }
 }
 
+/* "BACK TO HOMEPAGE" BUTTON */
 #back-to-homepage-button {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -49,18 +52,15 @@ main {
   color: white;
 }
 
-@media screen and (max-width: 900px) {
-}
-
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 690px) {
-    .thankYou_img {
-        width: 40%;
-      }
+  .thankYou_img {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 460px) {
-    .thankYou_img {
-        width: 50%;
-      }
+  .thankYou_img {
+    width: 50%;
+  }
 }
-

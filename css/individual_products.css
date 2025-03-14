@@ -1,4 +1,4 @@
-/* ---- PRODUCT 1 ---- */
+/* THE WHOLE PRODUCT PAGE */
 .product-page-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -8,14 +8,13 @@
   margin-right: 2%;
 }
 
-/* Help Eveline and Eveline video on JS changing pictures*/
-
-.product-images {
+/* PRODUCT IMAGE */
+.product-image {
   width: 90%;
   margin: 2%;
 }
-/* End Eveline and Eveline video on JS changing pictures*/
 
+/* PRODUCT TITLE */
 .product-title {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -23,6 +22,7 @@
   margin-bottom: 2%;
 }
 
+/* PRODUCT PRICING */
 .product-pricing {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -30,18 +30,23 @@
   margin-top: 2%;
 }
 
+/* PRODUCT DESCRIPTION */
 .product-description {
   width: 80%;
   margin-left: 8%;
 }
 
-/*Specifications buttons*/
+/* ALL DROPDOWN BUTTONS */
 .buttons {
   display: flex;
   flex-direction: column;
 }
 
-/* Start Help taken/dropdown funciton learned from w3shools https://www.w3schools.com/css/css_dropdowns.asp*/
+/* Help taken/dropdown funciton learned from w3shools
+https://www.w3schools.com/css/css_dropdowns.asp*/
+
+/* "KIT CONTENTS" DROPDOWN */
+/* button */
 .product-contents {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -52,18 +57,22 @@
   margin-left: 9%;
 }
 
+/* dropdown content */
 .dropdown-product-contents {
   display: none;
   font-family: "Times New Roman", Times, serif;
   margin-left: 9%;
 }
 
+/* active state */
 .dropdown-product-contents-show {
   display: block;
   text-align: start;
   margin-left: 9%;
 }
 
+/* "MORE INFORMATION" DROPDOWN */
+/* button */
 .product-specifications {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -74,18 +83,22 @@
   margin-left: 9%;
 }
 
+/* dropdown content */
 .dropdown-product-specifications {
   display: none;
   font-family: "Times New Roman", Times, serif;
   margin-left: 9%;
 }
 
+/* active state */
 .dropdown-product-specifications-show {
   display: block;
   text-align: start;
   margin-left: 9%;
 }
 
+/* "REVIEWS" DROPDOWN */
+/* button */
 .product-reviews {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -96,45 +109,28 @@
   margin-left: 9%;
 }
 
+/* dropdown content */
 .dropdown-product-reviews {
   display: none;
   font-family: "Times New Roman", Times, serif;
   margin-left: 9%;
 }
 
+/* active state */
 .dropdown-product-reviews-show {
   display: block;
   text-align: start;
   margin-left: 9%;
 }
 
-.product-images-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 1%;
-}
-.next-img-button-img {
-  width: 100px;
-}
-
-.previous-img {
-  border: none;
-}
-
-.next-img {
-  border: none;
-}
-
+/* "ADD TO CART" BUTTON */
 .add-to-cart {
   width: 40%;
   margin-top: 40px;
   cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
-}
-
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 690px) {
   .product-page-container {
     display: flex;

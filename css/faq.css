@@ -1,11 +1,14 @@
-/* DROPDOWNS */
-/*all dropdown buttons*/
+/* ALL DROPDOWN BUTTONS */
 .faq-buttons {
   display: flex;
   flex-direction: column;
 }
 
-/* Start Help taken/dropdown funciton learned from w3shools https://www.w3schools.com/css/css_dropdowns.asp*/
+/* Help taken/dropdown funciton learned from w3shools
+https://www.w3schools.com/css/css_dropdowns.asp*/
+
+/* "SHIPPING" DROPDOWN */
+/* button */
 .faq-shipping {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -17,6 +20,7 @@
   padding: 0;
 }
 
+/* dropdown content */
 .dropdown-faq-shipping {
   display: none;
   font-family: "Times New Roman", Times, serif;
@@ -24,11 +28,14 @@
   margin-right: 20%;
 }
 
+/* active state */
 .dropdown-faq-shipping-show {
   display: block;
   text-align: start;
 }
 
+/* "RETURNS" DROPDOWN */
+/* button */
 .faq-returns {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -40,6 +47,7 @@
   padding: 0;
 }
 
+/* dropdown content */
 .dropdown-faq-returns {
   display: none;
   font-family: "Times New Roman", Times, serif;
@@ -47,11 +55,14 @@
   margin-right: 20%;
 }
 
+/* active state */
 .dropdown-faq-returns-show {
   display: block;
   text-align: start;
 }
 
+/* "WRONG PRODUCT" DROPDOWN */
+/* button */
 .faq-wrong-product {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -63,6 +74,7 @@
   padding: 0;
 }
 
+/* dropdown content */
 .dropdown-faq-wrong-product {
   display: none;
   font-family: "Times New Roman", Times, serif;
@@ -70,11 +82,14 @@
   margin-right: 20%;
 }
 
+/* active state */
 .dropdown-faq-wrong-product-show {
   display: block;
   text-align: start;
 }
 
+/* "ORDER STATUS" DROPDOWN */
+/* button */
 .faq-order-status {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -86,6 +101,7 @@
   padding: 0;
 }
 
+/* dropdown content */
 .dropdown-faq-order-status {
   display: none;
   font-family: "Times New Roman", Times, serif;
@@ -93,11 +109,14 @@
   margin-right: 20%;
 }
 
+/* active state */
 .dropdown-faq-order-status-show {
   display: block;
   text-align: start;
 }
 
+/* "BROKEN PRODUCT" DROPDOWN */
+/* button */
 .faq-broken-product {
   font-family: "Vina Sans", serif;
   font-weight: 300;
@@ -109,6 +128,7 @@
   padding: 0;
 }
 
+/* dropdown content */
 .dropdown-faq-broken-product {
   display: none;
   font-family: "Times New Roman", Times, serif;
@@ -116,11 +136,13 @@
   margin-right: 20%;
 }
 
+/* active state */
 .dropdown-faq-broken-product-show {
   display: block;
   text-align: start;
 }
 
+/* "OTHER QUESTIONS" TITLE */
 #faq-questions {
   font-family: "Vina Sans", serif;
   font-weight: 400;
@@ -129,6 +151,7 @@
   margin-left: 10%;
 }
 
+/* "DONT HESITATE..." TITLE */
 #faq-dont_hesitate {
   font-family: "Vina Sans", serif;
   font-weight: 400;
@@ -136,23 +159,24 @@
   margin-left: 10%;
 }
 
+/* "CONTACT" FORM */
 form {
   margin-bottom: 25px;
   margin-left: 10%;
 }
 
+/* SUBMIT BUTTON */
 .faq-submit-button {
   margin-left: 10%;
   cursor: pointer;
 }
 
+/* submit image */
 .submit-image {
   width: 10%;
 }
 
-@media screen and (max-width: 900px) {
-}
-
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 690px) {
   .submit-image {
     width: 15%;

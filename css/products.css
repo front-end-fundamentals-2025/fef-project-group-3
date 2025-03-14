@@ -1,46 +1,45 @@
+/* "FILTER" BUTTON */
 .filter {
-  /* button specifics*/
   margin-left: 5%;
-  width: 200px;
-  height: 70px;
   cursor: pointer;
-
-  /* button looks*/
-  background-color: black;
-  border: none;
-
-  /* Text*/
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
 }
 
+/* "filter" image */
+.filter-image {
+  width: 15%;
+}
+
+/* dropdown menu */
 .dropdown-filters {
   display: none;
   margin-left: 5%;
 }
 
+/* active state */
 .dropdown-filters-show {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Vina Sans", serif;
+  font-weight: 400;
+  font-style: normal;
   display: block;
   text-align: start;
 }
 
-/* Common for all products START*/
-
+/* ALL PRODUCTS */
+/* product image */
 .product-img {
   width: 100%;
 }
 
+/* product title */
 .product-caption-heading {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 1.5rem;
+  font-family: "Vina Sans", serif;
+  font-weight: 400;
+  font-style: normal;
   background: none;
   margin-bottom: 0;
 }
 
+/* product price */
 .product-caption-price {
   margin-top: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +48,7 @@
   background: none;
 }
 
+/* product grid */
 .products {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
@@ -56,34 +56,14 @@
   margin-left: 2%;
   margin-right: 2%;
 }
-/* Common for all products END*/
 
-/* Individual for each product START */
-
+/* INDIVIDUAL FOR EACH PRODUCT */
 .product-1 {
   margin-top: 10%;
   width: 95%;
 }
 
-/* Individual for each product END*/
-
-.add-to-cart-button {
-  width: 200px;
-  height: 50px;
-
-  /* button looks*/
-  background-color: black;
-  border: none;
-
-  /* Text*/
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-}
-
-/* Responsiveness - start */
-
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 900px) {
   .products {
     grid-template-columns: repeat(3, 4fr);
@@ -108,14 +88,13 @@
     font-size: 3rem;
   }
   .product-caption-heading {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .product-caption-price {
-    font-size: 0.5rem;
+    font-size: 1.2rem;
   }
-  .filter {
-    width: 150px;
-    height: 50px;
+  .filter-image {
+    width: 20%;
   }
 }
 
@@ -126,15 +105,7 @@
   #pages-header {
     font-size: 2rem;
   }
-  .filter {
-    width: 130px;
-    height: 40px;
-    font-size: 0.6rem;
-  }
-
-  .product-caption-heading {
-    font-size: 1.5rem;
+  .filter-image {
+    width: 25%;
   }
 }
-
-/* Responsiveness - end */
