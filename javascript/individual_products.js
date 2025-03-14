@@ -1,13 +1,12 @@
-/*Kit Contents buttons - Start*/
+/* KIT CONTENTS BUTTON */
 const contentsButton = document.querySelector(".product-contents");
 const contentsDropDown = document.querySelector(".dropdown-product-contents");
 
 contentsButton.addEventListener("click", function (event) {
   contentsDropDown.classList.toggle("dropdown-product-contents-show");
 });
-/*kit contents buttons - End*/
 
-/* More information button - Start*/
+/* MORE INFORMATION BUTTON */
 const informationButton = document.querySelector(".product-specifications");
 const informationDropDown = document.querySelector(
   ".dropdown-product-specifications"
@@ -16,13 +15,11 @@ const informationDropDown = document.querySelector(
 informationButton.addEventListener("click", function (event) {
   informationDropDown.classList.toggle("dropdown-product-specifications-show");
 });
-/* More information button - End*/
 
-/* Reviews button - Start*/
+/* REVIEWS BUTTON */
 const reviewsButton = document.querySelector(".product-reviews");
 const reviewsDropDown = document.querySelector(".dropdown-product-reviews");
 
 reviewsButton.addEventListener("click", function (event) {
   reviewsDropDown.classList.toggle("dropdown-product-reviews-show");
 });
-/* Reviews Button - End*/

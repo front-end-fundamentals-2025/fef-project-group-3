@@ -8,41 +8,40 @@ const cartItem = document.createElement("li");
 const addToCartButton = document.querySelector(".add-to-cart");
 const removeItemButton = document.querySelector("#remove-item");
 
-cartItem.classList.add(
-  "cart_item"
-); /* Adding CSS to li =cart item from cartCSS*/
-cartItem.innerText =
-  "PARTY PRINCESS KIT - 149 KR"; /* Defining what the li element should say */
-let item = "PARTY PRINCESS KIT - 149KR"; /* this is from Evelines video */
+/* ADDING CSS CLASS FOR STYLING */
+cartItem.classList.add("cart_item");
 
-/* opening cart */
+/* SET CART ITEM TEXT */
+cartItem.innerText = "PARTY PRINCESS KIT - 149 KR";
+let item = "PARTY PRINCESS KIT - 149KR";
+
+/* OPENING CART TAB */
 iconCart.addEventListener("click", function (event) {
   cartTab.classList.toggle("showCart");
 });
 
-/* closing cart */
+/* CLOSING CART TAB */
 closeCart.addEventListener("click", function (event) {
   cartTab.classList.toggle("showCart");
 });
 
+/* LOAD ITEM IF IT IS SAVED IN LOCAL STORAGE */
 if (localStorage.newItem && !document.querySelector(".cart_item")) {
   innerList.appendChild(cartItem);
 }
 
+/* ADDING ITEM TO CART AND SAVING IN LOCAL STORAGE */
 if (document.querySelector(".product-page")) {
-  /* When add to cart button is pressed, "li" = cart item is added to inner list, which is the list inside the cart tab */
   addToCartButton.addEventListener("click", function (event) {
-    let newItem =
-      "true"; /* the value of the cart item is stored in the new item */
+    let newItem = "true";
 
-    localStorage.newItem =
-      newItem; /* this says that a new item + the locally stored value = new item */
+    localStorage.newItem = newItem;
 
     innerList.appendChild(cartItem);
   });
 }
 
-/* removing li = cartItem from inner List */
+/* REMOVING ITEM FROM CART & LOCAL STORAGE */
 removeItemButton.addEventListener("click", function (event) {
   cartItem.remove();
   localStorage.removeItem("newItem");
